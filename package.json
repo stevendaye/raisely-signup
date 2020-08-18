@@ -1,0 +1,19 @@
+{
+  "name": "raisely-signup",
+  "version": "1.0.0",
+  "description": "Raisely Signup App",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "Steven-Daye@dev.stevendaye@yahoo.com",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,121 @@
+/* #### CSS rules for adapting the app on different screens #### */
+/* On Medium Screens */
+@media (max-width: 1275px) {
+    /* Landing */
+    /* Welcome Section */
+    .wrap-welcome {
+        width: 100%;
+        padding: 0 4rem;
+    }
+    .wrap-welcome h2 {
+        font-size: 1.2rem;
+    }
+}
+
+/* On Small Medium Screens */
+@media (max-width: 1000px) {
+    /* Landing */
+    /* Form Section */
+    .landing-aside {
+        padding: 4rem 2rem 0 2rem;
+    }
+    
+    .wrap-aside, footer {
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    /* Welcome Section */
+    section.landing-welcome {
+        flex: 2;
+    }
+    .wrap-welcome {
+        padding: 0 2rem;
+    }
+
+    /* Footer */
+    footer {
+        padding-bottom: 2rem;
+    }
+}
+
+/* On Medium Screens */
+@media (max-width: 767px) {
+    /* Navbar */
+    .navbar {
+        padding: 1rem 1.5rem;
+    }
+    .user-name, .sign-out-text {
+        display: none
+    }
+    .sign-out-icon {
+        display: inline;
+    }
+
+    /* Not Found */
+    .not-found {
+        width: 80%;
+      }
+    .not-found-info {
+        width: 100%
+    }
+
+    /* Landing */
+    /* Form Section */
+    .landing-aside {
+        padding: 4rem 2rem 2rem 2rem;
+    }
+    
+    .wrap-aside, footer {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    /* Welcome Section */
+    section.landing-welcome {
+        flex: 2;
+    }
+    .wrap-welcome {
+        padding: 0 2rem;
+    }
+
+    /* Footer */
+    footer {
+        padding-bottom: 2rem;
+    }
+
+}
+
+/* On Small Screens*/
+@media (max-width: 675px) {
+    /* Landing */
+    .landing-aside {
+        padding-top: 2rem;
+    }
+
+    section.landing-welcome {
+        display: none;
+    }
+
+    .wrap-aside {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        width: 90%;
+    }
+}
+
+/* On Extra Small Screen */
+@media (max-width: 429px) {
+    /* Navbar */
+   .company-name, .raisely-solutions {
+       display: none;
+   }
+
+   /* Not Found */
+   .not-found {
+    width: 100%;
+  }
+}
