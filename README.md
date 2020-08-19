@@ -59,9 +59,9 @@ Follow these steps to run the Raisely Signup App in development.
  - Test [Test the app with Jest, Sinon and Chai]
 
 ## Good To Know
- - FirstName and LastName are controlled to only accepts String characters. Therefore No special characters is allowed. Eg: *John Doe* is good. *John Doe12* is not good.
+ - FirstName and LastName are controlled to only accepts String characters. Therefore No special characters is allowed except hyphenated names. Eg: **John Doe** is good. *John Doe12* is not good. *Anne-Marie Ford-London* is good. *Anne_Marie Ford* is not good.
  - Password was controlled to only accept Strings and Nubers. Therefore No special characters is allowed. Eg: *Hello123* is good. *hello-_123[]* is not good
- - Email is controlled to be a regular and valid email address. Eg: *john@doe.com* is good. *john@doe* is not good.
+ - Email is controlled to be a regular and valid email address. Eg: *john@doe.com* is good. *joHn@doe* is not good.
 
 ## Links
  - Production URL Link: `https://the-raisely-signup-app.herokuapp.com`

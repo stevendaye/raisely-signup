@@ -31,7 +31,7 @@ class Signup extends Component {
         
         if (!/^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/.test(email)) {
             this.props.onShowNotification(
-                "You email address needs an at symbol(@) and at least one dot(.)", "danger"
+                "You email address needs an at symbol(@) and at least one dot(.) with no capitalization", "danger"
             );
         } else {
             this.props.onCheckUser(email);
@@ -53,19 +53,19 @@ class Signup extends Component {
 
         if (!/^[a-zA-Z-][^0-9._!¡?÷?¿/\\+=@#$%ˆ"'&*(){}|~<>;:[\]]{1,30}$/.test(firstName)) {
             this.props.onShowNotification(
-                "Your firstname must be at least 2 characters long with no special characters", "danger"
+                "Your firstname must be at least 2 characters long with no special characters except hyphens (-)", "danger"
             );
         }
 
         if (!/^[a-zA-Z-][^0-9._!¡?÷?¿/\\+=@#$%ˆ"'&*(){}|~<>;:[\]]{1,30}$/.test(lastName)) {
             this.props.onShowNotification(
-                "Your lastname must be at least 2 characters long with no special characters", "danger"
+                "Your lastname must be at least 2 characters long with no special characters except hyphens (-)", "danger"
             );
         }
 
         if (!/^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/.test(email)) {
             this.props.onShowNotification(
-                "You email address needs an at symbol(@) and at least one dot(.)", "danger"
+                "You email address needs an at symbol(@) and at least one dot(.) with no capitalization", "danger"
             );
         }
 

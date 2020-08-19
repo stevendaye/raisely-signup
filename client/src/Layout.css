@@ -32,11 +32,6 @@
     .wrap-welcome {
         padding: 0 2rem;
     }
-
-    /* Footer */
-    footer {
-        padding-bottom: 2rem;
-    }
 }
 
 /* On Medium Screens */
@@ -78,12 +73,6 @@
     .wrap-welcome {
         padding: 0 2rem;
     }
-
-    /* Footer */
-    footer {
-        padding-bottom: 2rem;
-    }
-
 }
 
 /* On Small Screens*/
