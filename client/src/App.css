@@ -309,6 +309,7 @@ i:hover {
 }
 
 .wrap-aside {
+  position: relative;
   width: 400px;
   margin: 0 auto;
 }
