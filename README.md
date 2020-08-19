@@ -18,13 +18,13 @@ Follow these steps to run the Raisely Signup App in development.
 **1- Make a clone of the app**
   * `git clone https://github.com/stevendaye/raisely-signup`
 
-**2- Go to the root of the project**
-  * `cd raisely-signup`
+**2- Go to the *client* directory from the root of the project**
+  * `cd raisely-signup/client`
 
 **3 Intall required dependencies**
  * `npm i`
 
-**4 Run the app [at the root]**
+**4 Run the app [in the *client* directory]**
  * `npm start`
 
 ## File Organisation
