@@ -295,7 +295,6 @@ i:hover {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  overflow: hidden;
 }
 
 /* Form Section */
@@ -303,7 +302,6 @@ i:hover {
   position: relative;
   flex: 2;
   height: 100vh;
-  overflow: hidden;
   padding: 4rem 5rem 0 5rem;
   background: var(--light-color);
 }
@@ -336,7 +334,6 @@ h1.name {
   position: relative;
   flex: 3;
   height: 100vh;
-  overflow: hidden;
   color: var(--light-color);
   background-color: #a4508b;
   background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
@@ -429,5 +426,5 @@ footer {
   text-align: center;
   width: 400px;
   margin: 0;
-  bottom: 2rem;
+  bottom: -10rem;
 }
