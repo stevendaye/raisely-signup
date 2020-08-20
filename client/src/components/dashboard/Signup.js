@@ -39,7 +39,7 @@ class Signup extends Component {
         if (email && email === existingEmail) {
             this.props.onShowNotification(
                 "The email (" + existingEmail +
-                ") address has already been registered. Have You tried logging in?",
+                ") address has already been registered. Please, choose a new email address!",
                 "danger"
             );
         }
@@ -99,7 +99,7 @@ class Signup extends Component {
         if ((this.props.auth.status !== auth.status) && this.props.auth.status === "EXISTS") {
             this.props.onShowNotification(
                 "The email (" + email +
-                ") address has already been registered. Have You tried logging in?",
+                ") address has already been registered. Please, choose a new email address!",
                 "danger"
             );
             this.setState({ existingEmail: email });
